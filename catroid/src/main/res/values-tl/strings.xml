@@ -351,7 +351,7 @@ Pakiusap sumubok na lamang ng iba.</string>
     <string name="from_library">Idagdag mula sa library</string>
     <string name="sort_projects">Sort</string>
     <string name="unsort_projects">Unsort</string>
-    <string name="import_from_project">Select project to import from</string>
+    <string name="import_from_project">Pumili ng proyekto na i-i-import mula sa</string>
     <!-- New Dialog Titles -->
     <string name="new_scene_dialog">Bagong scene</string>
     <!-- Delete Dialog Titles -->
@@ -542,7 +542,7 @@ Pakiusap sumubok na lamang ng iba.</string>
     <string name="no_projects_selected">Walang proyektong napili para i-import.</string>
     <string name="only_select_catrobat_files">Pillin lang ang file ng proyekto</string>
     <string name="error_no_files_found">Walang nahanap na proyekto.</string>
-    <string name="import_sprite_from_project_launcher">Import Object from Local Project</string>
+    <string name="import_sprite_from_project_launcher">Mag-import ng bagay mula sa lokal na proyekto</string>
     <!-- ProjectOptionsFragment -->
     <string name="project_options_description">Paglalarawan</string>
     <string name="project_options_notes_and_credits">Mga Notes at Credits</string>
@@ -585,44 +585,44 @@ Pakiusap sumubok na lamang ng iba.</string>
     <string name="multiplayer_vars_headline">Variables para sa mga devices na konektado</string>
     <string name="global_vars_headline">Variables para sa lahat ng aktor o mga bagay</string>
     <string name="local_vars_headline">Variables para sa aktor o bagay lamang na ito</string>
-    <string name="global_lists_headline">Lists for all actors and objects</string>
-    <string name="local_lists_headline">Lists for this actor or object only</string>
-    <string name="fragment_data_text_description">Tap \"+\" to add\nvariables or lists</string>
+    <string name="global_lists_headline">List para sa lahat ng mga aktor o mga bagay</string>
+    <string name="local_lists_headline">List para sa aktor o sa bagay na ito lamang</string>
+    <string name="fragment_data_text_description">I-tap ang \"+\" upang magdagdag ng \n variables o lists</string>
     <plurals name="user_defined_brick_input_headline">
         <item quantity="one">Input for this brick</item>
-        <item quantity="other">Inputs for this brick</item>
+        <item quantity="other">Mga input para sa brick na ito</item>
     </plurals>
     <!-- NewDataDialog -->
-    <string name="new_data_for_all_sprites">For all actors, objects, and clones in all scenes</string>
-    <string name="new_data_for_this_sprite_only">For this actor, object, or one of its clones only</string>
-    <string name="new_data_for_connected_devices">For all actors, objects, and clones in all scenes of projects
-        on connected multiplayer devices</string>
+    <string name="new_data_for_all_sprites">Para sa lahat ng mga aktor,o mga bagay,at i-clone sa lahat ng mga scenes</string>
+    <string name="new_data_for_this_sprite_only">Para sa aktor na ito, bagay,o isa sa mga clone na ito lamang</string>
+    <string name="new_data_for_connected_devices">Para sa lahat ng mga aktor,mga bagay,at mga clone sa lahat ng scene ng proyekto
+    sa magkakonektang multiplayer devices</string>
     <!-- Backpack -->
-    <string name="backpack_title">Your backpack</string>
+    <string name="backpack_title">Ang iyong backpack</string>
     <string name="pack">Pack</string>
     <string name="unpack">Unpack</string>
     <!--  -->
     <!-- NewProjectDialog -->
-    <string name="new_project_dialog_example_project">Example project</string>
+    <string name="new_project_dialog_example_project">Halimbawang proyekto</string>
     <!--  -->
     <!-- NewMergedProjectDialog -->
-    <string name="new_merge_project_dialog_title">Merged project</string>
-    <string name="merging_project_text">These two projects cannot yet be merged</string>
+    <string name="new_merge_project_dialog_title">Pinagsanib na proyekto</string>
+    <string name="merging_project_text">Ang dalawang proyektong ito ay hindi pa maaaring ipagsanib</string>
     <!--  -->
     <!-- NewSpriteDialog -->
-    <string name="new_sprite_dialog_title">New actor or object</string>
+    <string name="new_sprite_dialog_title">Bagong aktor o bagay</string>
     <!--  -->
     <!-- NewLookDialog -->
-    <string name="new_look_dialog_title">Add look</string>
-    <string name="add_look_from_camera">Camera</string>
-    <string name="add_look_object_library">Library</string>
-    <string name="add_look_draw_new_image">Draw</string>
+    <string name="new_look_dialog_title">Magdagdag ng larawan</string>
+    <string name="add_look_from_camera">Kamera</string>
+    <string name="add_look_object_library">Aklatan</string>
+    <string name="add_look_draw_new_image">Gumuhit</string>
     <string name="add_look_choose_image">Gallery</string>
-    <string name="add_look_media_library">Looks</string>
-    <string name="add_look_from_local_project">Local projects</string>
+    <string name="add_look_media_library">Larawan</string>
+    <string name="add_look_from_local_project">Lokal na mga proyekto</string>
     <!--  -->
     <!-- NewSoundDialog -->
-    <string name="new_sound_dialog_title">Add sound</string>
+    <string name="new_sound_dialog_title">Magdagdag ng tunog</string>
     <string name="add_sound_from_recorder">Record sound</string>
     <string name="add_sound_choose_file">Select file</string>
     <string name="add_sound_music">Music composer</string>
@@ -803,7 +803,7 @@ Pakiusap sumubok na lamang ng iba.</string>
     <string name="categories">Categories</string>
     <string name="category_embroidery">Embroidery</string>
     <string name="category_motion">Motion</string>
-    <string name="category_looks">Looks</string>
+    <string name="category_looks">Larawan</string>
     <string name="category_pen">Pen</string>
     <string name="category_sound">Sound</string>
     <string name="category_control">Control</string>
@@ -831,7 +831,9 @@ Pakiusap sumubok na lamang ng iba.</string>
     <string name="brick_user_defined_default_label">Label text</string>
     <string name="brick_user_defined_already_exists">A brick with these labels already exists. Please add more labels or inputs.</string>
     <string name="brick_user_defined_script_define">Define</string>
-    <string name="brick_user_defined_script_as">as</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">with</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">Tap \"+\" to add your own new bricks.</string>
     <string name="brick_report">Report</string>
     <!--  -->

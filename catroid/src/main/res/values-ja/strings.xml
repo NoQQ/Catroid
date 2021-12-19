@@ -786,7 +786,9 @@
     <string name="brick_user_defined_default_label">ラベルテキスト</string>
     <string name="brick_user_defined_already_exists">これらのラベルを持つブロックは既に存在します。ラベルまたは入力を追加してください。</string>
     <string name="brick_user_defined_script_define">定義</string>
-    <string name="brick_user_defined_script_as">として</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">で</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">\"+\" をタップすると、新しいブロックを追加できます。</string>
     <string name="brick_report">不適切として報告する</string>
     <!--  -->

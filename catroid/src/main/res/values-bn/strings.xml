@@ -333,7 +333,7 @@
     <string name="from_library">লাইব্রেরি থেকে যোগ করুন</string>
     <string name="sort_projects">সাজান</string>
     <string name="unsort_projects">আনসোর্ট করা</string>
-    <string name="import_from_project">Select project to import from</string>
+    <string name="import_from_project">আমদানি করতে প্রকল্প নির্বাচন করুন</string>
     <!-- New Dialog Titles -->
     <string name="new_scene_dialog">নতুন দৃশ্য</string>
     <!-- Delete Dialog Titles -->
@@ -507,7 +507,7 @@
         <item quantity="other">%d প্রকল্প আমদানি করা হয়েছে।</item>
     </plurals>
     <!-- Renamed -->
-    <string name="renamed_project">Renamed project</string>
+    <string name="renamed_project">নতুন নামকরণ করা প্রকল্প</string>
     <!--  -->
     <!-- ProjectListActivity and ProjectListFragment -->
     <string name="project_list_title">প্রজেক্টসমূহ</string>
@@ -522,9 +522,9 @@
     <string name="export_project">বাহ্যিক স্টোরেজে প্রজেক্টটি সংরক্ষণ করুন</string>
     <string name="error_import_project">প্রজেক্টসমূহ আমদানি করার সময় কিছু ভুল হয়েছে।</string>
     <string name="no_projects_selected">আমদানির জন্য কোন প্রকল্প নির্বাচন করা হয়নি</string>
-    <string name="only_select_catrobat_files">Only select project files</string>
+    <string name="only_select_catrobat_files">শুধুমাত্র প্রকল্প ফাইল নির্বাচন করুন</string>
     <string name="error_no_files_found">কোনও প্রজেক্ট ফাইল পাওয়া যায়নি।</string>
-    <string name="import_sprite_from_project_launcher">Import Object from Local Project</string>
+    <string name="import_sprite_from_project_launcher">স্থানীয় প্রকল্প থেকে বস্তু আমদানি করুন</string>
     <!-- ProjectOptionsFragment -->
     <string name="project_options_description">বর্ণনা</string>
     <string name="project_options_notes_and_credits">Credits</string>
@@ -601,7 +601,7 @@
     <string name="add_look_draw_new_image">চিত্র আঁকুন</string>
     <string name="add_look_choose_image">ছবি নির্বাচন করুন</string>
     <string name="add_look_media_library">মিডিয়া লাইব্রেরি</string>
-    <string name="add_look_from_local_project">Local projects</string>
+    <string name="add_look_from_local_project">স্থানীয় প্রকল্প</string>
     <!--  -->
     <!-- NewSoundDialog -->
     <string name="new_sound_dialog_title">শব্দ যোগ করুন</string>
@@ -802,7 +802,9 @@
     <string name="brick_user_defined_default_label">লেবেল পাঠ্য</string>
     <string name="brick_user_defined_already_exists">এই লেবেলযুক্ত একটি ইট ইতিমধ্যে বিদ্যমান। দয়া করে আরও লেবেল বা ইনপুট যুক্ত করুন।</string>
     <string name="brick_user_defined_script_define">সংজ্ঞা দিন</string>
-    <string name="brick_user_defined_script_as">যেমন</string>
+    <string name="brick_user_defined_script_screen_refresh_as">পর্দা রিফ্রেশ</string>
+    <string name="brick_user_defined_with_screen_refreshing">সাথে</string>
+    <string name="brick_user_defined_without_screen_refreshing">ছাড়া</string>
     <string name="brick_user_defined_list_empty">আপনার নিজস্ব নতুন ইট যুক্ত করতে \"+\" আলতো চাপুন।</string>
     <string name="brick_report">প্রতিবেদন করুন</string>
     <!--  -->
@@ -1758,10 +1760,10 @@
     <string name="formula_editor_sensor_second_face_size">দ্বিতীয় মুখের আকার</string>
     <string name="formula_editor_sensor_second_face_x_position">দ্বিতীয় মুখ এক্স অবস্থান</string>
     <string name="formula_editor_sensor_second_face_y_position">দ্বিতীয় মুখ y অবস্থান</string>
-    <string name="formula_editor_sensor_head_top_x">head top x</string>
-    <string name="formula_editor_sensor_head_top_y">head top y</string>
-    <string name="formula_editor_sensor_neck_x">neck x</string>
-    <string name="formula_editor_sensor_neck_y">neck y</string>
+    <string name="formula_editor_sensor_head_top_x">মাথার উপরে x</string>
+    <string name="formula_editor_sensor_head_top_y">মাথার উপরে y</string>
+    <string name="formula_editor_sensor_neck_x">ঘাড় x</string>
+    <string name="formula_editor_sensor_neck_y">ঘাড় y</string>
     <string name="formula_editor_sensor_nose_x">নাক x</string>
     <string name="formula_editor_sensor_nose_y">নাক y</string>
     <string name="formula_editor_sensor_left_eye_inner_x">বাম চোখের ভিতরের x</string>
@@ -1959,8 +1961,8 @@
     <string name="new_sprite_dialog_place_visually">দর্শনীয়ভাবে রাখুন</string>
     <string name="place_visually_text">আপনাকে নতুন অভিনেতা বা আপত্তি রাখতে বলা হবে
         মঞ্চ</string>
-    <string name="new_empty_sprite_note">Note: The actor or object will be created
-        without a look.</string>
+    <string name="new_empty_sprite_note">দ্রষ্টব্য: অভিনেতা বা বস্তু তৈরি হবে
+         একটি চেহারা ছাড়া</string>
     <!-- Information -->
     <string name="no_variable_selected">কোনও ভেরিয়েবল নির্বাচন করা হয়নি</string>
     <string name="find">অনুসন্ধান</string>
@@ -1976,6 +1978,6 @@
     <string name="particle_effects_additive_on">চালু</string>
     <string name="particle_effects_additive_off">বন্ধ</string>
     <string name="set_particle_color_to">কণার রঙ সেট করুন</string>
-    <string name="undo_sort">Undo sort</string>
+    <string name="undo_sort">সাজানোর পূর্বাবস্থায় ফেরান</string>
     <string name="sort">সাজান</string>
 </resources>

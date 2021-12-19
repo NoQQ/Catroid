@@ -823,7 +823,9 @@
     <string name="brick_user_defined_default_label">Texto</string>
     <string name="brick_user_defined_already_exists">Um bloco com estes rótulos já existe. Por favor, adicione mais textos ou entradas.</string>
     <string name="brick_user_defined_script_define">Definir</string>
-    <string name="brick_user_defined_script_as">como</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">com</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">Toque em \"+\" para adicionar seus próprios novos blocos.</string>
     <string name="brick_report">Reportar</string>
     <!--  -->

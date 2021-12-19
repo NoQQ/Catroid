@@ -788,7 +788,9 @@
     <string name="brick_user_defined_default_label">標籤文字</string>
     <string name="brick_user_defined_already_exists">帶有這些標籤的磚塊已經存在。請添加更多標籤或輸入。</string>
     <string name="brick_user_defined_script_define">定義</string>
-    <string name="brick_user_defined_script_as">作為</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">替換為</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">點擊“+”添加您自己的新積木。</string>
     <string name="brick_report">報告</string>
     <!--  -->

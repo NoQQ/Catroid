@@ -975,7 +975,9 @@
     <string name="brick_user_defined_default_label">نص التسمية</string>
     <string name="brick_user_defined_already_exists">طُوبة بهذه التسميات موجودة بالفعل. الرجاء إضافة المزيد من التسميات أو المدخلات.</string>
     <string name="brick_user_defined_script_define">تعريف</string>
-    <string name="brick_user_defined_script_as">مثل</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">مع</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">انقر فوق \"+\" لإضافة الطوب الجديد الخاص بك.</string>
     <string name="brick_report">تقرير</string>
     <!--  -->

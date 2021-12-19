@@ -876,7 +876,9 @@ Jeśli jednak nie chcesz tego robić, możesz skorzystać z naszych bezpłatnych
     <string name="brick_user_defined_default_label">Tekst etykiety</string>
     <string name="brick_user_defined_already_exists">Blok z tymi etykietami już istnieje. Dodaj więcej etykiet lub danych wejściowych.</string>
     <string name="brick_user_defined_script_define">Zdefiniuj</string>
-    <string name="brick_user_defined_script_as">jako</string>
+    <string name="brick_user_defined_script_screen_refresh_as">odśwież ekran jako</string>
+    <string name="brick_user_defined_with_screen_refreshing">na</string>
+    <string name="brick_user_defined_without_screen_refreshing">bez</string>
     <string name="brick_user_defined_list_empty">Naciśnij \"+\", aby dodać własne nowe bloki.</string>
     <string name="brick_report">Zgłoś</string>
     <!--  -->
@@ -2050,8 +2052,8 @@ Jeśli jednak nie chcesz tego robić, możesz skorzystać z naszych bezpłatnych
     <string name="new_sprite_dialog_place_visually">Ręczne położenie</string>
     <string name="place_visually_text">Zostaniesz poproszony o umieszczenie nowego aktora lub obiektu na
         etapie.</string>
-    <string name="new_empty_sprite_note">Note: The actor or object will be created
-        without a look.</string>
+    <string name="new_empty_sprite_note">Uwaga: Aktor lub obiekt zostaną utworzone
+        bez wyglądu.</string>
     <!-- Information -->
     <string name="no_variable_selected">Nie wybrano zmiennej</string>
     <string name="find">Znajdź</string>

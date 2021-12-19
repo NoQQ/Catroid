@@ -333,7 +333,7 @@
     <string name="from_library">Kitaplıktan ekle</string>
     <string name="sort_projects">Sırala</string>
     <string name="unsort_projects">Sıralamayı Kaldır</string>
-    <string name="import_from_project">Select project to import from</string>
+    <string name="import_from_project">İçe aktarılacak projeyi seçin</string>
     <!-- New Dialog Titles -->
     <string name="new_scene_dialog">Yeni sahne</string>
     <!-- Delete Dialog Titles -->
@@ -507,7 +507,7 @@
         <item quantity="other">%d projeleri içe aktarıldı.</item>
     </plurals>
     <!-- Renamed -->
-    <string name="renamed_project">Renamed project</string>
+    <string name="renamed_project">Yeniden adlandırılan proje</string>
     <!--  -->
     <!-- ProjectListActivity and ProjectListFragment -->
     <string name="project_list_title">Projeler</string>
@@ -522,9 +522,9 @@
     <string name="export_project">Projeyi harici depolamaya kaydedin</string>
     <string name="error_import_project">Projeler içe aktarılırken bir şeyler ters gitti.</string>
     <string name="no_projects_selected">İçe aktarmak için hiçbir proje seçilmedi</string>
-    <string name="only_select_catrobat_files">Only select project files</string>
+    <string name="only_select_catrobat_files">Yalnızca proje dosyalarını seçin</string>
     <string name="error_no_files_found">Proje dosyası bulunamadı.</string>
-    <string name="import_sprite_from_project_launcher">Import Object from Local Project</string>
+    <string name="import_sprite_from_project_launcher">Objeyi Yerel Projeden İçe Aktar</string>
     <!-- ProjectOptionsFragment -->
     <string name="project_options_description">Açıklama</string>
     <string name="project_options_notes_and_credits">Yapanlar</string>
@@ -600,7 +600,7 @@
     <string name="add_look_draw_new_image">Resim Çiz</string>
     <string name="add_look_choose_image">Telefondan seç</string>
     <string name="add_look_media_library">Medya kütüphanesi</string>
-    <string name="add_look_from_local_project">Local projects</string>
+    <string name="add_look_from_local_project">Yerel projeler</string>
     <!--  -->
     <!-- NewSoundDialog -->
     <string name="new_sound_dialog_title">Ses ekle</string>
@@ -802,7 +802,9 @@ Bu uygulamanın kaynak kodu esas olarak GNU AGPL v3 lisansı altında lisanslanm
     <string name="brick_user_defined_default_label">Metni etiketle</string>
     <string name="brick_user_defined_already_exists">Bu etiketlere sahip bir tuğla zaten var. Lütfen daha fazla etiket veya girdi ekleyin.</string>
     <string name="brick_user_defined_script_define">Tanımlamak</string>
-    <string name="brick_user_defined_script_as">gibi</string>
+    <string name="brick_user_defined_script_screen_refresh_as">screen refresh as</string>
+    <string name="brick_user_defined_with_screen_refreshing">ile</string>
+    <string name="brick_user_defined_without_screen_refreshing">without</string>
     <string name="brick_user_defined_list_empty">Kendi tuğlalarınızı eklemek için \"+\" ya dokunun.</string>
     <string name="brick_report">Bildir</string>
     <!--  -->
@@ -1749,10 +1751,10 @@ bekleyin</string>
     <string name="formula_editor_sensor_second_face_size">ikinci yüz boyutu</string>
     <string name="formula_editor_sensor_second_face_x_position">ikinci yüz x konumu</string>
     <string name="formula_editor_sensor_second_face_y_position">ikinci yüz y konumu</string>
-    <string name="formula_editor_sensor_head_top_x">head top x</string>
-    <string name="formula_editor_sensor_head_top_y">head top y</string>
-    <string name="formula_editor_sensor_neck_x">neck x</string>
-    <string name="formula_editor_sensor_neck_y">neck y</string>
+    <string name="formula_editor_sensor_head_top_x">baş üstü x</string>
+    <string name="formula_editor_sensor_head_top_y">baş üstü y</string>
+    <string name="formula_editor_sensor_neck_x">boynu x</string>
+    <string name="formula_editor_sensor_neck_y">boynu y</string>
     <string name="formula_editor_sensor_nose_x">burun x</string>
     <string name="formula_editor_sensor_nose_y">burun y</string>
     <string name="formula_editor_sensor_left_eye_inner_x">sol göz iç x</string>
@@ -1959,8 +1961,8 @@ bekleyin</string>
     <string name="new_sprite_dialog_place_visually">Görsel olarak yerleştirin</string>
     <string name="place_visually_text">Yeni objeyi ekranın herhangi bir yerine yerleştirmeniz
         istenecek</string>
-    <string name="new_empty_sprite_note">Note: The actor or object will be created
-        without a look.</string>
+    <string name="new_empty_sprite_note">Not: Görüntü olmadan bir
+        Obje oluşturuluçaktır.</string>
     <!-- Information -->
     <string name="no_variable_selected">Değişken seçilmedi</string>
     <string name="find">Bul</string>
@@ -1976,6 +1978,6 @@ bekleyin</string>
     <string name="particle_effects_additive_on">aç</string>
     <string name="particle_effects_additive_off">kapa</string>
     <string name="set_particle_color_to">Parçacık rengini şuna ayarla</string>
-    <string name="undo_sort">Undo sort</string>
+    <string name="undo_sort">Sıralamayı geri al</string>
     <string name="sort">Sırala</string>
 </resources>
